@@ -340,8 +340,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Sefidgaran]
-  first_name: [Milad]
+  last_name: [Sefidgaran, Sefidgaran]
+  first_name: [Milad, M.]
   
   style: ieee
   locale: en

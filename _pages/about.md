@@ -2,33 +2,31 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research scientist working on the foundations of machine learning and large language models.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Paris, France</p>
+    <p>milad.sefidgaran@gmail.com</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 5
+
+news: true
+latest_posts:
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research is about generalization: why machine learning models work as well as they do on data they have never seen, and how to turn that understanding into better algorithms. I mostly use ideas from statistical learning theory and information theory. Over the past few years I have been bringing that perspective to large language models, looking at how they learn from next-token prediction, how they form their internal representations, and how far they can be compressed without losing what makes them work.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a Principal Research Scientist at Huawei's Paris Research Center, where I set the research direction for a small theory group. Our work spans generalization, inference methods for large language models, and reinforcement learning. My recent papers include an oral at NeurIPS 2025 and a spotlight at ICLR 2025, with earlier work at ICML, COLT, and NeurIPS. Before moving to industry I did a PhD in information theory at Télécom Paris, followed by postdoctoral research at INRIA and Télécom Paris.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My main interests are learning theory, generalization, the foundations of large language models, representation learning, information theory, and reinforcement learning. The [research](/research/) page says more about each of these. You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=-ZT1wPgAAAAJ&hl=en), or reach me by [email](mailto:milad.sefidgaran@gmail.com).

@@ -7,11 +7,8 @@ subtitle: Research scientist working on the foundations of machine learning and 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true
-  more_info: >
-    <p>Paris, France</p>
-    <p>milad.sefidgaran@gmail.com</p>
-
+  image_circular: false
+    
 selected_papers: true
 social: true
 

@@ -1,0 +1,94 @@
+---
+---
+
+/* ===== Custom palette ===== */
+:root {
+  --global-bg-color: #fbfaf7;
+  --global-text-color: #17191c;
+  --global-text-color-light: #5c616b;
+  --global-theme-color: #b3261e;   /* deep red — links/accent (light mode) */
+  --global-hover-color: #8c1d17;
+  --global-divider-color: #e7e3d9;
+}
+html[data-theme="dark"] {
+  --global-bg-color: #15171a;
+  --global-text-color: #e9e7e1;
+  --global-text-color-light: #a8adb6;
+  --global-theme-color: #e2554c;   /* lighter red — readable on dark */
+  --global-hover-color: #f08077;
+  --global-divider-color: #2a2d33;
+}
+
+/* ===== [1] [2] numbering on the publications list ===== */
+ol.bibliography {
+  list-style: none;
+  counter-reset: bib;
+  padding-left: 2.4em;
+}
+ol.bibliography > li {
+  counter-increment: bib;
+  position: relative;
+}
+ol.bibliography > li::before {
+  content: "[" counter(bib) "]";
+  position: absolute;
+  left: -2.4em;
+  width: 2.2em;
+  text-align: left;
+}
+
+.links { margin-top: 0.4rem; }
+.links .btn { display: inline-block; margin-right: 0.4rem; }
+
+/* ===== Gap between homepage photo and text ===== */
+.profile {
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ===== First/last name on the homepage: bold ===== */
+.profile-name, #main h1, .post-title { font-weight: 600; }
+.profile-name, .profile-name strong, .profile-name span,
+#main h1, #main h1 strong, #main h1 span {
+  font-weight: 700;
+}
+
+.navbar-brand.title {
+  font-weight: 700 !important;
+}
+.navbar-brand .font-weight-bold {
+  font-weight: 700 !important;
+}
+
+/* breathing room below the navbar + bring back a subtle top divider */
+#main, .post {
+  margin-top: 1.5rem;
+}
+.profile-name, #main h1.post-title, .post > .post-header {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1rem;
+}
+
+/* My own name in publications */
+.author strong, .author em {
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Award button + award text bold */
+.award, a.award, .bibliography .award {
+  font-weight: 700;
+}
+
+/* gap between name and subtitle on homepage */
+.profile-name + .subtitle,
+.post-title + .subtitle,
+#main h1 + p,
+.subtitle {
+  margin-top: 1.5rem;
+}
+/* gap between name and the subtitle line */
+.post-title,
+#main h1 {
+  margin-bottom: 1.5rem;
+}

@@ -92,3 +92,29 @@ ol.bibliography > li::before {
 #main h1 {
   margin-bottom: 1.5rem;
 }
+
+/* make the mobile hamburger icon visible */
+.navbar-toggler {
+  border-color: var(--global-text-color) !important;
+}
+.navbar-toggler .navbar-toggler-icon,
+.navbar-toggler span.navbar-toggler-icon {
+  background-image: none;
+}
+.navbar-toggler::after {
+  content: "\2630";              /* ☰ unicode */
+  color: var(--global-text-color);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/* solid background behind the fixed navbar so content doesn't show through */
+#navbar,
+nav.navbar.fixed-top {
+  background-color: var(--global-bg-color) !important;
+}
+
+#navbar,
+nav.navbar.fixed-top {
+  border-bottom: 1px solid var(--global-divider-color);
+}

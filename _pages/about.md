@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research scientist working on the foundations of machine learning and large language models.
+subtitle: Research scientist working on the foundations of machine learning algorithms.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-    
+
 selected_papers: true
 social: true
 
@@ -22,8 +22,8 @@ latest_posts:
   enabled: false
 ---
 
-My research is about generalization: why machine learning models work as well as they do on data they have never seen, and how to turn that understanding into better algorithms. I mostly use ideas from statistical learning theory and information theory. Over the past few years I have been bringing that perspective to large language models, looking at how they learn from next-token prediction, how they form their internal representations, and how far they can be compressed without losing what makes them work.
+My research is about generalization and its relation to the geometry of the representations: why machine learning models work on data they have never seen during training, and how to turn that understanding into better algorithms. I mostly use ideas from statistical learning theory and information theory. Over the past few years I have been bringing that perspective to structured representation learning for vision, large language models, and reinforcement learning: how these models form their internal representations; how the structure learned by an attention block differs from that of a CNN block; and how to put them to use in designing more efficient learning algorithms, by discovering such structures and learning how to shape them.
 
-I am a Principal Research Scientist at Huawei's Paris Research Center, where I set the research direction for a small theory group. Our work spans generalization, inference methods for large language models, and reinforcement learning. My recent papers include an oral at NeurIPS 2025 and a spotlight at ICLR 2025, with earlier work at ICML, COLT, and NeurIPS. Before moving to industry I did a PhD in information theory at Télécom Paris, followed by postdoctoral research at INRIA and Télécom Paris.
+I am a Principal Research Scientist at Huawei's Paris Research Center, where I lead a small research group on the foundations of AI. Our work spans structured representation learning, generalization, inference methods for large language models, and reinforcement learning.
 
 My main interests are learning theory, generalization, the foundations of large language models, representation learning, information theory, and reinforcement learning. The [research](/research/) page says more about each of these. You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=-ZT1wPgAAAAJ&hl=en), or reach me by [email](mailto:milad.sefidgaran@gmail.com).

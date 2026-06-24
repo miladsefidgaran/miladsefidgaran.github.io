@@ -2,37 +2,46 @@
 layout: page
 title: research
 permalink: /research/
-description: Generalization in machine learning, and what it tells us about large language models.
 nav: true
 nav_order: 2
 ---
 
-Most of my work comes back to a single question: can we understand generalization well enough to actually do something with it? In recent years that question has pulled me toward the foundations of large language models.
+*What distinguishes learning from optimization is generalization.*
+
+---
+
+Most of my work comes back to a single question: can we understand generalization well enough to actually do something with it? In recent years, that question has led me toward structured representation learning for vision, large language models, and reinforcement learning.
 
 ### Generalization of modern learning
 
-I work on generalization bounds that stay meaningful for the large, overparameterized models people actually use, including data-dependent bounds and ones based on conditional mutual information. Lately this has grown to include the algorithms behind language models themselves, such as next-token prediction.
+I work on generalization bounds that remain meaningful for the large, overparameterized models people actually use, including data-dependent bounds and bounds based on conditional mutual information. More recently, this has grown to include the algorithms behind language models themselves, such as next-token prediction.
 
-Related: generalization of next-token prediction (ISIT 2026); projection and quantization (NeurIPS 2025, oral); variable-size compressibility (IEEE T-IT 2024).
+*Related:* generalization of next-token prediction (ISIT 2026); projection and quantization (NeurIPS 2025, oral); variable-size compressibility (IEEE T-IT 2024).
 
 ### Representation learning and information-theoretic priors
 
-I look at how to shape a model's latent space using priors learned from the data, so that the representations are both more useful and easier to give guarantees for. This turns out to be closely tied to how language models organize their own representation spaces.
+I study how to simultaneously learn and shape a model's latent-space structure using priors learned from data throughout optimization. This approach, which guarantees good generalization performance as long as the learned structure remains sufficiently simple, turns out to be closely tied to how large vision and language models organize their own representation spaces.
 
-Related: Gaussian mixture priors (ICLR 2025, spotlight); minimum description length guarantees (NeurIPS 2023).
+*Related:* Gaussian mixture priors (ICLR 2025, spotlight); minimum description length guarantees (NeurIPS 2023).
 
 ### Compression, quantization, and efficient models
 
-A recurring theme in my work is how far you can compress a model, through projection and quantization, before it starts to lose the ability to generalize. This is the theory side of making large models cheaper to run.
+A recurring theme in my work is understanding how far a model can be compressed, through projection and quantization, before it begins to lose its ability to generalize. This is the theory side of making large models cheaper to deploy and run.
 
-Related: projection and quantization (NeurIPS 2025, oral); heavy tails in SGD and compressibility (NeurIPS 2021).
+*Related:* projection and quantization (NeurIPS 2025, oral); heavy tails in SGD and compressibility (NeurIPS 2021).
 
 ### Distributed and federated learning
 
-I have spent a good deal of time on what communication really buys you when training is spread across many machines. One result I am fond of is that communicating less often can sometimes give better generalization, not worse.
+I have spent a good deal of time studying what communication really buys you when training is distributed across many machines. One result I am particularly fond of is that communicating less often usually leads to better generalization, not worse, and can sometimes even reduce population risk.
 
-Related: you may communicate less often (ICML 2024); rate-distortion bounds for distributed learning (NeurIPS 2022); clients and server communication (IEEE T-IT 2026).
+*Related:* you may communicate less often (ICML 2024); rate-distortion bounds for distributed learning (NeurIPS 2022); clients and server communication (IEEE T-IT 2026).
 
 ### Current directions
 
-Right now I am working on inference-time methods that make use of the representation spaces of large language models, and on diversity-aware zero-shot reinforcement learning. Papers on both are in preparation.
+Right now, I am working on:
+
+- inference-time methods that make use of the representation spaces of large language models,
+- learning representation structure over stratified manifolds and imposing such structure through curvature-aware (geometry-aware) learning algorithms,
+- diversity-aware zero-shot reinforcement learning, which exploits the structure of learned representations to guarantee diversity and good coverage at inference time.
+
+Papers on all three directions are in preparation.

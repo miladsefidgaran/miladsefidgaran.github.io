@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Research scientist working on the foundations of machine learning algorithms.
 

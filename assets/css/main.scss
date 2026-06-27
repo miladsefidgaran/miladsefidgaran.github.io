@@ -19,6 +19,17 @@ html[data-theme="dark"] {
   --global-divider-color: #2a2d33;
 }
 
+/* news table background in dark mode */
+html[data-theme="dark"] .news table,
+html[data-theme="dark"] .news .table,
+html[data-theme="dark"] .news tr,
+html[data-theme="dark"] .news th,
+html[data-theme="dark"] .news td {
+  background-color: var(--global-bg-color) !important;
+  color: var(--global-text-color) !important;
+  border-color: var(--global-divider-color) !important;
+}
+
 /* ===== [1] [2] numbering on the publications list ===== */
 ol.bibliography {
   list-style: none;

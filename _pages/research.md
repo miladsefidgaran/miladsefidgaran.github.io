@@ -41,7 +41,5 @@ I have spent a good deal of time studying what communication really buys you whe
 Right now, I am working on:
 
 - inference-time methods that make use of the representation spaces of large language models,
-- learning representation structure over stratified manifolds and imposing such structure through curvature-aware (geometry-aware) learning algorithms,
+- learning representation structure over (stratified) manifolds and imposing such structure through curvature-aware (geometry-aware) learning algorithms,
 - diversity-aware zero-shot reinforcement learning, which exploits the structure of learned representations to guarantee diversity and good coverage at inference time.
-
-Papers on all three directions are in preparation.

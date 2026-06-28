@@ -38,7 +38,7 @@ I have spent a good deal of time studying what communication really buys you whe
 
 ### Current directions
 
-Right now, I am working on:
+My current research focuses on
 
 - inference-time methods that make use of the representation spaces of large language models,
 - learning representation structure over (stratified) manifolds and imposing such structure through curvature-aware (geometry-aware) learning algorithms,

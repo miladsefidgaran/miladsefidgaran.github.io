@@ -26,9 +26,9 @@ I study how to simultaneously learn and shape a model's latent-space structure u
 
 ### Compression, quantization, and efficient models
 
-A recurring theme in my work is understanding how far a model can be compressed, through projection and quantization, before it begins to lose its ability to generalize. This is the theory side of making large models cheaper to deploy and run.
+A recurring theme in my work is understanding how far a model can be compressed, through projection and quantization, pruning strategies, or more general lossy compression schemes, and how to enforce such compressibility during training. This is the theory side of making AI models cheaper to deploy and run.
 
-*Related:* projection and quantization (NeurIPS 2025, oral); heavy tails in SGD and compressibility (NeurIPS 2021).
+*Related:* projection and quantization (NeurIPS 2025, oral); heavy tails in SGD and compressibility (NeurIPS 2021); minimal communication-cost learning (ISIT 2024).
 
 ### Distributed and Federated learning
 

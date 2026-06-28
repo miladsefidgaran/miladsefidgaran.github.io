@@ -12,7 +12,7 @@ nav_order: 2
 
 Most of my work comes back to a single question: can we understand generalization well enough to actually do something with it? In recent years, that question has led me toward structured representation learning for vision, large language models, and reinforcement learning.
 
-### Generalization of modern learning
+### Generalization of modern learning algorithms
 
 I work on generalization bounds that remain meaningful for the large, overparameterized models people actually use, including data-dependent bounds and bounds based on conditional mutual information. More recently, this has grown to include the algorithms behind language models themselves, such as next-token prediction.
 
@@ -30,7 +30,7 @@ A recurring theme in my work is understanding how far a model can be compressed,
 
 *Related:* projection and quantization (NeurIPS 2025, oral); heavy tails in SGD and compressibility (NeurIPS 2021).
 
-### Distributed and federated learning
+### Distributed and Federated learning
 
 I have spent a good deal of time studying what communication really buys you when training is distributed across many machines. One result I am particularly fond of is that communicating less often usually leads to better generalization, not worse, and can sometimes even reduce population risk.
 

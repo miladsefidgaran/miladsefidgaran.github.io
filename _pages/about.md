@@ -26,4 +26,4 @@ My research is about generalization and its relation to the geometry of the repr
 
 I am a Principal Research Scientist at Huawei's Paris Research Center, where I lead a small research group focused on the foundations of AI. Our research spans structured representation learning, generalization, and zero-shot reinforcement learning. We also work on LLM capability assessment and post-training methods, including supervised fine-tuning and reinforcement learning-based approaches.
 
-My main interests are learning theory, generalization, the foundations of large language models, representation learning, information theory, and reinforcement learning. The [research](/research/) page says more about each of these. You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=-ZT1wPgAAAAJ&hl=en), or reach me by [email](mailto:milad.sefidgaran@gmail.com).
+For more on my research interests, see the [research](/research/) page. You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=-ZT1wPgAAAAJ&hl=en) and on the [publications](/publications/) page, or reach me by [email](mailto:milad.sefidgaran@gmail.com).

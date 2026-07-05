@@ -122,10 +122,10 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+# blog_name: al-folio # blog_name will be displayed in your blog page
+# blog_description: a simple whitespace theme for academics
+# permalink: /blog/:year/:title/
+# lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
@@ -216,6 +216,9 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - blog/
+  - _posts/
+  - blog.md
   - al-folio-upgrade-report.md
   - bin/
   - CONTRIBUTING.md
@@ -321,11 +324,11 @@ terser:
 # -----------------------------------------------------------------------------
 # Jekyll Archives
 # -----------------------------------------------------------------------------
-jekyll-archives:
-  posts:
-    enabled: [] # disable all post archives since you have no blog
-  books:
-    enabled: []
+# jekyll-archives:
+#   posts:
+#     enabled: [] # disable all post archives since you have no blog
+#   books:
+#     enabled: []
     
 # jekyll-archives:
 #   posts:

@@ -295,6 +295,10 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "_news"
+    values:
+      sitemap: false
 
 sass:
   style: compressed

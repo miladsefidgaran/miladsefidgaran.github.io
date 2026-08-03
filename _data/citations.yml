@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-08-03'
 papers:
   -ZT1wPgAAAAJ:2osOgNQ5qMEC:
-    citations: 17
+    citations: 16
     title: "On K\xF6rner-Marton's sum modulo two problem"
     year: '2015'
   -ZT1wPgAAAAJ:3fE2CSJIrl8C:
@@ -30,7 +30,7 @@ papers:
     title: 'Computing a function of correlated sources: A rate region'
     year: '2011'
   -ZT1wPgAAAAJ:LkGwnXOMwfcC:
-    citations: 12
+    citations: 13
     title: More Communication Does Not Result in Smaller Generalization Error in Federated Learning
     year: '2023'
   -ZT1wPgAAAAJ:MXK_kJrjxJIC:
@@ -38,7 +38,7 @@ papers:
     title: Minimal Communication-Cost Statistical Learning
     year: '2024'
   -ZT1wPgAAAAJ:Se3iqnhoufwC:
-    citations: 20
+    citations: 21
     title: Minimum Description Length and Generalization Guarantees for Representation Learning
     year: '2023'
   -ZT1wPgAAAAJ:Tyk-4Ss8FVUC:
@@ -50,7 +50,7 @@ papers:
     title: On function computation over a cascade network
     year: '2012'
   -ZT1wPgAAAAJ:W7OEmFMy1HYC:
-    citations: 74
+    citations: 73
     title: Heavy tails in SGD and compressibility of overparametrized neural networks
     year: '2021'
   -ZT1wPgAAAAJ:WF5omc3nYNoC:
@@ -66,7 +66,7 @@ papers:
     title: Tighter CMI-Based Generalization Bounds via Stochastic Projection and Quantization
     year: '2025'
   -ZT1wPgAAAAJ:_FxGoFyzp5QC:
-    citations: 15
+    citations: 17
     title: Data-dependent generalization bounds via variable-size compressibility
     year: '2024'
   -ZT1wPgAAAAJ:kNdYIx-mwKoC:
@@ -78,7 +78,7 @@ papers:
     title: Distributed function computation over a tree network
     year: '2013'
   -ZT1wPgAAAAJ:roLk4NBRz8UC:
-    citations: 24
+    citations: 22
     title: 'Lessons from Generalization Error Analysis of Federated Learning: You May Communicate Less Often!'
     year: '2024'
   -ZT1wPgAAAAJ:u-x6o8ySG0sC:
@@ -90,6 +90,6 @@ papers:
     title: Reliable source transmission over relay networks with side information
     year: '2009'
   -ZT1wPgAAAAJ:ufrVoPGSRksC:
-    citations: 27
+    citations: 28
     title: Rate-Distortion Theoretic Bounds on Generalization Error for Distributed Learning
     year: '2022'

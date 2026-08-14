@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-14'
 papers:
   -ZT1wPgAAAAJ:2osOgNQ5qMEC:
     citations: 16
@@ -38,7 +38,7 @@ papers:
     title: Minimal Communication-Cost Statistical Learning
     year: '2024'
   -ZT1wPgAAAAJ:Se3iqnhoufwC:
-    citations: 21
+    citations: 23
     title: Minimum Description Length and Generalization Guarantees for Representation Learning
     year: '2023'
   -ZT1wPgAAAAJ:Tyk-4Ss8FVUC:
@@ -50,7 +50,7 @@ papers:
     title: On function computation over a cascade network
     year: '2012'
   -ZT1wPgAAAAJ:W7OEmFMy1HYC:
-    citations: 73
+    citations: 74
     title: Heavy tails in SGD and compressibility of overparametrized neural networks
     year: '2021'
   -ZT1wPgAAAAJ:WF5omc3nYNoC:
